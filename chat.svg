@@ -12,7 +12,7 @@
       font-family: 'Inter';
       letter-spacing: -0.02em;
     }
-    
+
     .emoji {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
     }
@@ -168,7 +168,7 @@
     }
 
   </style>
-  
+
   <defs>
     <style>
       /* cyrillic-ext */
@@ -376,6 +376,6 @@
   <!-- Have a great... -->
   <g transform="translate(10, 288)" class="msg-6">
     <rect width="230" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27">Have a great Sunday! <tspan class="emoji">👋</tspan></text>  
+    <text x="15" y="27">Have a great Sunday! <tspan class="emoji">👋</tspan></text>
   </g>
 </svg>
