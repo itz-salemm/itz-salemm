@@ -20,7 +20,7 @@ jobs:
       - name: Generate readme
         env:
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        run: echo ${{ secrets.WEATHER_API_KEY }}
+        run: echo "${{ secrets.WEATHER_API_KEY }}"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
@@ -31,4 +31,4 @@ jobs:
           add: '*.svg'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo ${{ secrets.GITHUB_TOKEN }}
+      - run: echo "${{ secrets.GITHUB_TOKEN }}"
