@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "date-fns": "^2.22.1",
-    "dotenv": "^16.4.5",
     "got": "^11.8.5",
     "js-quantities": "^1.7.6"
   }
