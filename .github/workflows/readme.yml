@@ -26,7 +26,7 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           author_name: Salem Olorundare
-          author_email: salemolorundareS@gmail.com
+          author_email: salemolorundare@gmail.com
           message: 'Auto updating my readme'
           add: '*.svg'
         env:
