@@ -1,7 +1,5 @@
 name: Update readme
 
-permissions: read-all && write-all
-
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -22,7 +20,7 @@ jobs:
       - name: Generate readme
         env:
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        run: node build-svg.js
+        run: echo ${{ secrets.WEATHER_API_KEY }}
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
@@ -33,3 +31,4 @@ jobs:
           add: '*.svg'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo ${{ secrets.GITHUB_TOKEN }}
