@@ -29,5 +29,3 @@ jobs:
           author_email: salemolorundare@gmail.com
           message: 'Auto updating my readme'
           add: '*.svg'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

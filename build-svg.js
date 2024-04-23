@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = '07x1Hs9saZY6wKllPy3rEn4Ifn8UNrpn'
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY
 
 let fs = require('fs')
 let got = require('got')
