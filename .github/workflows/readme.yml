@@ -20,6 +20,11 @@ jobs:
       - name: Generate readme
         run: node build-svg.js
 
+      - name: Set up Git
+        run: |
+          git config --global user.name 'Salem Olorundare'
+          git config --global user.email 'salemolorundare@gmail.com'
+
       - name: Commit changes
         run: |
           git add .
